@@ -15,7 +15,10 @@ GPL Licensed : Please read the enclosed license in COPYING
 import struct
 import datetime
 import os.path
-from StringIO import StringIO
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 
 def reader(incoming_bytes):
