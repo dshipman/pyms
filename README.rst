@@ -2,19 +2,18 @@
 pyms
 ===============================
 
-.. image:: https://badge.fury.io/py/pyms.png
-    :target: http://badge.fury.io/py/pyms
-
-.. image:: https://travis-ci.org/dshipman/pyms.png?branch=master
-        :target: https://travis-ci.org/dshipman/pyms
-
-.. image:: https://pypip.in/d/pyms/badge.png
-        :target: https://pypi.python.org/pypi/pyms
-
-
 PyMS - A Metastock tool for Python
 
-Features
-=========
+David Shipman, 2012
 
-* TODO
+Provides a convenient interface for accessing Metastock databases
+in python (with additional support for PremiumData).
+
+Based on part ms2txt by themech
+https://github.com/themech/ms2txt
+
+GPL Licensed : Please read the enclosed license in COPYING
+
+If you are using PremiumData, you can simply create a PremiumDataExchange
+object pointed to the correct directory, then iterate through the available
+stocks.
